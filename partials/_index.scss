@@ -1,0 +1,24 @@
+.d-flex justify-content-center align-items-center vh-100{
+    position: static;
+    z-index: 1;
+}
+.carousel-item img{
+    max-height: 600px;
+}
+
+.productosdestacados{
+    font-size: 2rem;
+    text-align: center;
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+    img{
+        width: 40%;
+    }
+    p{
+        font-size: 2rem;
+        color: black;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+}

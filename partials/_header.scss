@@ -1,0 +1,117 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 62.5%;
+}
+nav{
+    width: 50%;
+    ul{
+        font-size: 2rem;
+    }
+}
+header{
+    background-color: $lila;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index:100;
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+    }
+    img{
+        width: 120px;
+        margin-top: 5px;
+        margin-left: 5px;
+        }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+.barra ul li a{
+    color: white;
+    font-weight: bold;
+}
+h1 {
+    color: black;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(../images/backgroundlilac.jpg);
+    padding: 80px 0px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+h3{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+p{
+    font-size: 2rem;
+    margin: 20px 20px;
+    margin-left: 40px;
+    text-align: center;
+}
+.envios{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 2rem;
+}
+.offcanvas-start{
+    background-color: beige;
+    max-width: 250px;
+}
+.offcanvas-header{
+    justify-content: center;
+}
+.btn-primary{
+    color: black;
+    background-color: beige;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    border: none;
+    margin-top: 30px;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+.btn-primary:hover{
+    background-color: pink;
+}
+.offcanvas-title{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.offcanvas-body ul{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: space-around;
+}
+.offcanvas-body ul li a{
+    color: black;
+    font-size: 2rem;
+}
+.offcanvas-body ul li a:hover{
+    color: pink;
+}

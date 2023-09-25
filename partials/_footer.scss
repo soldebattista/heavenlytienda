@@ -1,0 +1,20 @@
+footer{
+    background-color: $lila;
+    height: 250px;
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+    a img{
+        width: 3%;
+        margin-left: 10px;
+        margin-top: 20px;
+        justify-content: space-around;
+    }
+}
+
+.copyright p{
+    font-size: 1rem;
+    font-weight: 600;
+}
