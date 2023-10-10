@@ -1,13 +1,4 @@
-@import "../partials/variables";
-@import "../partials/header";
-@import "../partials/footer";
-@import "../partials/index";
-@import "../partials/productos";
-@import "../partials/nosotros";
-@import "../partials/contacto";
-@import "../partials/preguntasfrecuentes";
-@import "../partials/mediaQ";
-
+@import "./partials/variables";
 *{
     margin: 0;
     padding: 0;
@@ -16,4 +7,14 @@ html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 62.5%;
 }
+@import "./partials/header";
+@import "./partials/footer";
+@import "./partials/index";
+@import "./partials/productos";
+@import "./partials/nosotros";
+@import "./partials/contacto";
+@import "./partials/preguntasfrecuentes";
+@import "./partials/mediaQ";
+
+
 

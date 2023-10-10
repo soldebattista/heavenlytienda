@@ -1,0 +1,20 @@
+h2{
+    font-size: 4rem;
+}
+.nosotros{
+    display: flex;
+    p{
+        flex: 1;
+        font-size: 2rem;
+        color: black;
+        text-transform: capitalize;
+        text-align: center;
+        text-transform: none;
+    }
+    img{
+        flex: 1;
+        height: 400px;
+        margin-right: 40px;
+        margin-bottom: 30px;
+    }
+}

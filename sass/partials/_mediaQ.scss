@@ -1,0 +1,105 @@
+@media only screen and (max-width:767px) {
+    header{
+        flex-direction: column;
+        a{
+            font-size: 1rem;
+            justify-content: space-between;
+        }
+    }
+    nav{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    h1{
+        font-size: 2rem;
+        padding: 40px 0px;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .envios p{
+        font-size: 1rem;
+    }
+    .productosdestacados{
+        display: block;
+        text-align: center;
+        img{
+            width: 50%;
+        }
+        div{
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+    }
+    .gafas{
+        display: block;
+        text-align: center;
+        article{
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+    } 
+    .btn-primary{
+        font-size: 2rem;
+    }
+    .offcanvas-start{
+        max-width: 150px;
+    }
+    .offcanvas-title{
+        font-size: 2rem;
+    }
+    .offcanvas-body ul li a{
+        font-size: 1rem;
+    }
+    .contacto iframe{
+        width: 40%;
+        height: 100px;
+    }
+    .d-flex{
+        padding-top: 0px;
+    }
+    .carousel-item img{
+        max-height: 400px;
+    }
+    .nosotros{
+        p{
+            font-size: 1rem;
+        }
+        img{
+            height: 200px;
+            margin-top: 20px;
+        }
+    }
+    }
+    @media only screen and (min-width:768px) and (max-width: 1023px) {
+        h1{
+            font-size: 3rem;
+        }
+        h2{
+            font-size: 2rem;
+        }
+        h3{
+            font-size: 2rem;
+        }
+        .contacto{
+            p{
+                font-size: 2rem;
+            }
+        }
+        .nosotros{
+            p{
+                font-size: 1rem;
+            }
+            img{
+                height: 300px;
+            }
+        }
+    }

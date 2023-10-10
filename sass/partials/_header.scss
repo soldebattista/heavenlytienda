@@ -1,5 +1,5 @@
 html {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 62.5%;
 }
 nav{
@@ -51,28 +51,30 @@ h1 {
     justify-content: center;
 }
 h2{
-    font-size: 2rem;
+    font-size: 4rem;
     text-align: center;
-    margin-top: 20px;
-    margin-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
 }
 h3{
     font-size: 2rem;
     text-align: center;
     margin-top: 20px;
-    margin-left: 40px;
 }
 p{
     font-size: 2rem;
     margin: 20px 20px;
-    margin-left: 40px;
     text-align: center;
 }
 .envios{
-    color: white;
     background-color: black;
+    p{
+    color: white;
     text-align: center;
     font-size: 2rem;
+    }
 }
 .offcanvas-start{
     background-color: beige;

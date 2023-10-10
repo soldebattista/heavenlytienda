@@ -8,4 +8,365 @@ html {
   font-size: 62.5%;
 }
 
+html {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 62.5%;
+}
+
+nav {
+  width: 50%;
+}
+nav ul {
+  font-size: 2rem;
+}
+
+header {
+  background-color: #AFA6ED;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+header ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+header img {
+  width: 120px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+.barra ul li a {
+  color: white;
+  font-weight: bold;
+}
+
+h1 {
+  color: black;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-image: url(../images/backgroundlilac.jpg);
+  padding: 80px 0px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 2rem;
+  margin: 20px 20px;
+  text-align: center;
+}
+
+.envios {
+  background-color: black;
+}
+.envios p {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.offcanvas-start {
+  background-color: beige;
+  max-width: 250px;
+}
+
+.offcanvas-header {
+  justify-content: center;
+}
+
+.btn-primary {
+  color: black;
+  background-color: beige;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  border: none;
+  margin-top: 30px;
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+
+.btn-primary:hover {
+  background-color: pink;
+}
+
+.offcanvas-title {
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.offcanvas-body ul {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  justify-content: space-around;
+}
+
+.offcanvas-body ul li a {
+  color: black;
+  font-size: 2rem;
+}
+
+.offcanvas-body ul li a:hover {
+  color: pink;
+}
+
+footer {
+  background-color: #AFA6ED;
+  height: 250px;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+footer a img {
+  width: 3%;
+  margin-left: 10px;
+  margin-top: 20px;
+  justify-content: space-around;
+}
+
+.copyright p {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: none;
+}
+
+.d-flex justify-content-center align-items-center vh-100 {
+  position: static;
+  z-index: 1;
+}
+
+.carousel-item img {
+  max-height: 600px;
+}
+
+.productosdestacados {
+  font-size: 2rem;
+  text-align: center;
+  background-color: white;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0px;
+  justify-content: space-between;
+}
+.productosdestacados img {
+  width: 80%;
+}
+.productosdestacados div {
+  width: 30%;
+  margin-top: 30px;
+}
+.productosdestacados p {
+  font-size: 2rem;
+  color: black;
+  text-transform: capitalize;
+  font-weight: bold;
+  text-transform: none;
+}
+
+.gafas {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0px;
+  justify-content: space-between;
+}
+.gafas article {
+  width: 50%;
+  margin-bottom: 20px;
+}
+.gafas img {
+  width: 40%;
+}
+.gafas p {
+  font-size: 2rem;
+  color: black;
+  text-transform: capitalize;
+  font-weight: bold;
+  text-align: center;
+  text-transform: none;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+.nosotros {
+  display: flex;
+}
+.nosotros p {
+  flex: 1;
+  font-size: 2rem;
+  color: black;
+  text-transform: capitalize;
+  text-align: center;
+  text-transform: none;
+}
+.nosotros img {
+  flex: 1;
+  height: 400px;
+  margin-right: 40px;
+  margin-bottom: 30px;
+}
+
+.contacto {
+  text-align: center;
+}
+.contacto h3 {
+  text-transform: none;
+  font-weight: bold;
+  text-align: center;
+}
+.contacto p {
+  text-transform: none;
+  font-weight: normal;
+}
+
+.accordion-button {
+  margin-bottom: 20px;
+  background-color: rgb(207, 168, 207);
+  width: 50%;
+  margin-left: 50px;
+}
+
+@media only screen and (max-width: 767px) {
+  header {
+    flex-direction: column;
+  }
+  header a {
+    font-size: 1rem;
+    justify-content: space-between;
+  }
+  nav {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-size: 2rem;
+    padding: 40px 0px;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .envios p {
+    font-size: 1rem;
+  }
+  .productosdestacados {
+    display: block;
+    text-align: center;
+  }
+  .productosdestacados img {
+    width: 50%;
+  }
+  .productosdestacados div {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  .gafas {
+    display: block;
+    text-align: center;
+  }
+  .gafas article {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  .btn-primary {
+    font-size: 2rem;
+  }
+  .offcanvas-start {
+    max-width: 150px;
+  }
+  .offcanvas-title {
+    font-size: 2rem;
+  }
+  .offcanvas-body ul li a {
+    font-size: 1rem;
+  }
+  .contacto iframe {
+    width: 40%;
+    height: 100px;
+  }
+  .d-flex {
+    padding-top: 0px;
+  }
+  .carousel-item img {
+    max-height: 400px;
+  }
+  .nosotros p {
+    font-size: 1rem;
+  }
+  .nosotros img {
+    height: 200px;
+    margin-top: 20px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  .contacto p {
+    font-size: 2rem;
+  }
+  .nosotros p {
+    font-size: 1rem;
+  }
+  .nosotros img {
+    height: 300px;
+  }
+}
+
 /*# sourceMappingURL=estilos.css.map */
